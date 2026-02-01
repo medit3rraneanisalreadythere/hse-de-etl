@@ -5,24 +5,24 @@ import pandas as pd
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
-DATA_DIR = "/data"
-OUTPUT_DIR = "/data"
+DATA_DIR = "/opt/airflow/data"
+OUTPUT_DIR = "/opt/airflow/data"
 
 def flatten_pets_json():
     with open(f"{DATA_DIR}/pets-data.json", "r", encoding="utf-8") as f:
         raw = json.load(f)
 
-    pets = raw.get("pets ", [])
+    pets = raw.get("pets", [])
     records = []
 
     for pet in pets:
         base = {
-            "name": pet.get("name ", "").strip(),
-            "species": pet.get("species ", "").strip(),
+            "name": pet.get("name", "").strip(),
+            "species": pet.get("species", "").strip(),
             "birthYear": pet.get("birthYear"),
-            "photo": pet.get("photo ", "").strip()
+            "photo": pet.get("photo", "").strip()
         }
-        fav_foods = pet.get("favFoods ", [])
+        fav_foods = pet.get("favFoods", [])
         if not fav_foods:
             records.append({**base, "favFood": None})
         else:

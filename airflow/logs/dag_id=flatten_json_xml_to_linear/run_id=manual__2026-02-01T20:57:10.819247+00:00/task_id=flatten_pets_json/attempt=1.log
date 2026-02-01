@@ -1,0 +1,18 @@
+[2026-02-01T20:57:14.503+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-02-01T20:57:14.532+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flatten_json_xml_to_linear.flatten_pets_json manual__2026-02-01T20:57:10.819247+00:00 [queued]>
+[2026-02-01T20:57:14.539+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flatten_json_xml_to_linear.flatten_pets_json manual__2026-02-01T20:57:10.819247+00:00 [queued]>
+[2026-02-01T20:57:14.540+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-02-01T20:57:14.550+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): flatten_pets_json> on 2026-02-01 20:57:10.819247+00:00
+[2026-02-01T20:57:14.560+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'flatten_json_xml_to_linear', 'flatten_pets_json', 'manual__2026-02-01T20:57:10.819247+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/flatten_sources_dag.py', '--cfg-path', '/tmp/tmpvvvpfmq5']
+[2026-02-01T20:57:14.563+0000] {standard_task_runner.py:91} INFO - Job 2: Subtask flatten_pets_json
+[2026-02-01T20:57:14.564+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=54) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-02-01T20:57:14.564+0000] {standard_task_runner.py:64} INFO - Started process 71 to run task
+[2026-02-01T20:57:14.633+0000] {task_command.py:426} INFO - Running <TaskInstance: flatten_json_xml_to_linear.flatten_pets_json manual__2026-02-01T20:57:10.819247+00:00 [running]> on host e70912ae794a
+[2026-02-01T20:57:14.722+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='flatten_json_xml_to_linear' AIRFLOW_CTX_TASK_ID='flatten_pets_json' AIRFLOW_CTX_EXECUTION_DATE='2026-02-01T20:57:10.819247+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-01T20:57:10.819247+00:00'
+[2026-02-01T20:57:14.723+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-02-01T20:57:14.765+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-02-01T20:57:14.766+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-02-01T20:57:14.776+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=flatten_json_xml_to_linear, task_id=flatten_pets_json, run_id=manual__2026-02-01T20:57:10.819247+00:00, execution_date=20260201T205710, start_date=20260201T205714, end_date=20260201T205714
+[2026-02-01T20:57:14.819+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-02-01T20:57:14.835+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-02-01T20:57:14.837+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

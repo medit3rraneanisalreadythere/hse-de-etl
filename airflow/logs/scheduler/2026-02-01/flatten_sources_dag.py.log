@@ -149,3 +149,179 @@
 [2026-02-01T20:49:51.207+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:49:51.207+0000] {dag.py:3089} INFO - Sync 1 DAGs
 [2026-02-01T20:49:51.431+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:49:51.431+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
 [2026-02-01T20:49:51.457+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.564 seconds
+[2026-02-01T20:50:21.660+0000] {processor.py:161} INFO - Started process (PID=147) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:50:21.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T20:50:21.662+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:50:21.662+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:50:21.947+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:50:21.978+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:50:21.978+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T20:50:21.992+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:50:21.992+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T20:50:22.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.361 seconds
+[2026-02-01T20:50:52.173+0000] {processor.py:161} INFO - Started process (PID=149) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:50:52.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T20:50:52.177+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:50:52.176+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:50:52.470+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:50:52.507+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:50:52.507+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T20:50:52.525+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:50:52.524+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T20:50:52.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.386 seconds
+[2026-02-01T20:51:22.704+0000] {processor.py:161} INFO - Started process (PID=151) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:51:22.705+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T20:51:22.707+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:51:22.706+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:51:23.011+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:51:23.046+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:51:23.045+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T20:51:23.059+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:51:23.059+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T20:51:23.084+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.386 seconds
+[2026-02-01T20:51:53.237+0000] {processor.py:161} INFO - Started process (PID=153) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:51:53.238+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T20:51:53.240+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:51:53.240+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:51:53.498+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:51:53.530+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:51:53.530+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T20:51:53.546+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:51:53.546+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T20:51:53.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.512 seconds
+[2026-02-01T20:52:23.905+0000] {processor.py:161} INFO - Started process (PID=155) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:52:23.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T20:52:23.908+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:52:23.908+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:52:24.175+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:52:24.350+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:52:24.349+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T20:52:24.359+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:52:24.359+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T20:52:24.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.476 seconds
+[2026-02-01T20:56:32.310+0000] {processor.py:161} INFO - Started process (PID=50) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:56:32.311+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T20:56:32.313+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:56:32.313+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:56:33.472+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:56:34.038+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:56:34.037+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:flatten_json_xml_to_linear
+[2026-02-01T20:56:34.059+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:56:34.058+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:flatten_json_xml_to_linear
+[2026-02-01T20:56:34.083+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:56:34.083+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:flatten_json_xml_to_linear
+[2026-02-01T20:56:34.084+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:56:34.084+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T20:56:34.096+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:56:34.096+0000] {dag.py:3111} INFO - Creating ORM DAG for flatten_json_xml_to_linear
+[2026-02-01T20:56:34.097+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:56:34.097+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T20:56:34.318+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 2.015 seconds
+[2026-02-01T20:57:04.472+0000] {processor.py:161} INFO - Started process (PID=52) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:57:04.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T20:57:04.476+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:57:04.475+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:57:04.778+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:57:04.813+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:57:04.812+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T20:57:04.828+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:57:04.828+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T20:57:04.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.382 seconds
+[2026-02-01T20:57:35.005+0000] {processor.py:161} INFO - Started process (PID=90) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:57:35.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T20:57:35.009+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:57:35.009+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:57:35.286+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:57:35.316+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:57:35.315+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T20:57:35.328+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:57:35.328+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T20:57:35.350+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.352 seconds
+[2026-02-01T20:58:05.505+0000] {processor.py:161} INFO - Started process (PID=92) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:58:05.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T20:58:05.509+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:58:05.508+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:58:05.926+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:58:05.967+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:58:05.967+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T20:58:05.982+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:58:05.981+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T20:58:06.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.504 seconds
+[2026-02-01T20:58:36.171+0000] {processor.py:161} INFO - Started process (PID=94) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:58:36.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T20:58:36.175+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:58:36.174+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:58:36.552+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:58:36.582+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:58:36.582+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T20:58:36.595+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:58:36.595+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T20:58:36.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.452 seconds
+[2026-02-01T20:59:06.765+0000] {processor.py:161} INFO - Started process (PID=96) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:59:06.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T20:59:06.768+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:59:06.768+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:59:07.031+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T20:59:07.060+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:59:07.059+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T20:59:07.073+0000] {logging_mixin.py:188} INFO - [2026-02-01T20:59:07.072+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T20:59:07.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.331 seconds
+[2026-02-01T21:47:04.479+0000] {processor.py:161} INFO - Started process (PID=50) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:47:04.480+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T21:47:04.482+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:47:04.482+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:47:05.595+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:47:05.849+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:47:05.848+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:flatten_json_xml_to_linear
+[2026-02-01T21:47:05.858+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:47:05.858+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:flatten_json_xml_to_linear
+[2026-02-01T21:47:05.864+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:47:05.864+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:flatten_json_xml_to_linear
+[2026-02-01T21:47:05.865+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:47:05.864+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T21:47:05.876+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:47:05.876+0000] {dag.py:3111} INFO - Creating ORM DAG for flatten_json_xml_to_linear
+[2026-02-01T21:47:05.877+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:47:05.877+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T21:47:06.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 1.565 seconds
+[2026-02-01T21:47:36.200+0000] {processor.py:161} INFO - Started process (PID=52) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:47:36.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T21:47:36.204+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:47:36.203+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:47:36.510+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:47:36.545+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:47:36.545+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T21:47:36.560+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:47:36.559+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T21:47:36.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.387 seconds
+[2026-02-01T21:48:06.742+0000] {processor.py:161} INFO - Started process (PID=54) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:48:06.743+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T21:48:06.747+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:48:06.746+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:48:07.083+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:48:07.117+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:48:07.116+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T21:48:07.131+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:48:07.131+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T21:48:07.152+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.417 seconds
+[2026-02-01T21:48:37.308+0000] {processor.py:161} INFO - Started process (PID=56) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:48:37.309+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T21:48:37.312+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:48:37.312+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:48:37.657+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:48:37.696+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:48:37.695+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T21:48:37.711+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:48:37.711+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T21:48:37.731+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.430 seconds
+[2026-02-01T21:49:07.886+0000] {processor.py:161} INFO - Started process (PID=58) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:49:07.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T21:49:07.889+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:49:07.888+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:49:08.153+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:49:08.182+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:49:08.182+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T21:49:08.195+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:49:08.195+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T21:49:08.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.332 seconds
+[2026-02-01T21:49:38.355+0000] {processor.py:161} INFO - Started process (PID=60) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:49:38.356+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T21:49:38.358+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:49:38.358+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:49:38.638+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:49:38.668+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:49:38.667+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T21:49:38.680+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:49:38.680+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T21:49:38.698+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.349 seconds
+[2026-02-01T21:50:08.857+0000] {processor.py:161} INFO - Started process (PID=62) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:50:08.858+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T21:50:08.863+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:50:08.862+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:50:09.131+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:50:09.160+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:50:09.160+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T21:50:09.174+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:50:09.174+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T21:50:09.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.345 seconds
+[2026-02-01T21:50:39.357+0000] {processor.py:161} INFO - Started process (PID=64) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:50:39.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T21:50:39.361+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:50:39.361+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:50:39.718+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:50:39.750+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:50:39.750+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T21:50:39.766+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:50:39.766+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T21:50:39.785+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.436 seconds
+[2026-02-01T21:51:09.946+0000] {processor.py:161} INFO - Started process (PID=66) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:51:09.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T21:51:09.951+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:51:09.950+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:51:10.310+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:51:10.343+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:51:10.342+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T21:51:10.356+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:51:10.356+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T21:51:10.376+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.438 seconds
+[2026-02-01T21:51:40.543+0000] {processor.py:161} INFO - Started process (PID=104) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:51:40.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T21:51:40.547+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:51:40.547+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:51:40.911+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:51:40.945+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:51:40.945+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T21:51:40.959+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:51:40.959+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T21:51:40.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.445 seconds
+[2026-02-01T21:52:11.147+0000] {processor.py:161} INFO - Started process (PID=106) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:52:11.148+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T21:52:11.151+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:52:11.150+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:52:11.492+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:52:11.525+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:52:11.525+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T21:52:11.539+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:52:11.539+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T21:52:11.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.423 seconds
+[2026-02-01T21:52:41.721+0000] {processor.py:161} INFO - Started process (PID=108) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:52:41.722+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T21:52:41.725+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:52:41.724+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:52:42.105+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:52:42.137+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:52:42.137+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T21:52:42.154+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:52:42.154+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T21:52:42.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.458 seconds
+[2026-02-01T21:53:12.333+0000] {processor.py:161} INFO - Started process (PID=110) to work on /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:53:12.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flatten_sources_dag.py for tasks to queue
+[2026-02-01T21:53:12.337+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:53:12.336+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:53:12.642+0000] {processor.py:840} INFO - DAG(s) 'flatten_json_xml_to_linear' retrieved from /opt/airflow/dags/flatten_sources_dag.py
+[2026-02-01T21:53:12.670+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:53:12.670+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-02-01T21:53:12.682+0000] {logging_mixin.py:188} INFO - [2026-02-01T21:53:12.682+0000] {dag.py:3947} INFO - Setting next_dagrun for flatten_json_xml_to_linear to None, run_after=None
+[2026-02-01T21:53:12.698+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flatten_sources_dag.py took 0.372 seconds
