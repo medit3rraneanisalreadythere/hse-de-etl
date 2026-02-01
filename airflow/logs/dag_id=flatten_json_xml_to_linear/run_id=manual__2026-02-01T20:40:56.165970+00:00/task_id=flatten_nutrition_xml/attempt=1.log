@@ -1,0 +1,44 @@
+[2026-02-01T20:40:59.170+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-02-01T20:40:59.199+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flatten_json_xml_to_linear.flatten_nutrition_xml manual__2026-02-01T20:40:56.165970+00:00 [queued]>
+[2026-02-01T20:40:59.205+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flatten_json_xml_to_linear.flatten_nutrition_xml manual__2026-02-01T20:40:56.165970+00:00 [queued]>
+[2026-02-01T20:40:59.206+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-02-01T20:40:59.215+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): flatten_nutrition_xml> on 2026-02-01 20:40:56.165970+00:00
+[2026-02-01T20:40:59.222+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'flatten_json_xml_to_linear', 'flatten_nutrition_xml', 'manual__2026-02-01T20:40:56.165970+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/flatten_sources_dag.py', '--cfg-path', '/tmp/tmpci2nbzk8']
+[2026-02-01T20:40:59.225+0000] {standard_task_runner.py:91} INFO - Job 2: Subtask flatten_nutrition_xml
+[2026-02-01T20:40:59.226+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=37) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-02-01T20:40:59.226+0000] {standard_task_runner.py:64} INFO - Started process 54 to run task
+[2026-02-01T20:40:59.296+0000] {task_command.py:426} INFO - Running <TaskInstance: flatten_json_xml_to_linear.flatten_nutrition_xml manual__2026-02-01T20:40:56.165970+00:00 [running]> on host 36e8cf71e255
+[2026-02-01T20:40:59.388+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='flatten_json_xml_to_linear' AIRFLOW_CTX_TASK_ID='flatten_nutrition_xml' AIRFLOW_CTX_EXECUTION_DATE='2026-02-01T20:40:56.165970+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-01T20:40:56.165970+00:00'
+[2026-02-01T20:40:59.389+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-02-01T20:40:59.419+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-02-01T20:40:59.420+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/flatten_sources_dag.py", line 37, in flatten_nutrition_xml
+    tree = ET.parse(f"{DATA_DIR}/nutrition.xml")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/xml/etree/ElementTree.py", line 1204, in parse
+    tree.parse(source, parser)
+  File "/usr/local/lib/python3.12/xml/etree/ElementTree.py", line 558, in parse
+    source = open(source, "rb")
+             ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/data/nutrition.xml'
+[2026-02-01T20:40:59.435+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=flatten_json_xml_to_linear, task_id=flatten_nutrition_xml, run_id=manual__2026-02-01T20:40:56.165970+00:00, execution_date=20260201T204056, start_date=20260201T204059, end_date=20260201T204059
+[2026-02-01T20:40:59.443+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 2 for task flatten_nutrition_xml ([Errno 2] No such file or directory: '/opt/airflow/data/nutrition.xml'; 54)
+[2026-02-01T20:40:59.481+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2026-02-01T20:40:59.497+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-02-01T20:40:59.499+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
