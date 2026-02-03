@@ -75,10 +75,7 @@ def flatten_nutrition_xml():
 
 with DAG(
     dag_id="flatten_json_xml_to_linear",
-    start_date=datetime(2026, 2, 1),
-    schedule_interval=None,
-    catchup=False,
-    tags=["dz", "etl", "flatten"],
+    start_date=datetime(2026, 2, 1)
 ) as dag:
 
     t1 = PythonOperator(
