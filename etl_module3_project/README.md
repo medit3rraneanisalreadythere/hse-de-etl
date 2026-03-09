@@ -10,5 +10,11 @@
 ## Как запустить
 
    ```bash
-   docker-compose up -d
+   docker compose build --no-cache
+   docker compose up -d
+
+   source venv/bin/activate
+   python scripts/generate_data.py
    ```
+
+   И выполнить SQL запросы из init_tables.sql
